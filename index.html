@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.png"
+      type="image/x-icon"
+    />
+    <title>Gaming Portal | MAAN</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Boxicon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/navbar.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="flex items-center justify-between px-6 lg:px-20 md:px-12 py-7 z-50"
+    >
+      <div
+        class="text-xl font-bold cursor-pointer hover:text-[#a9a9a9] duration-200"
+      >
+        OGP-MAAN
+      </div>
+      <!-- Hamburger Menu Icon -->
+      <div class="block md:hidden lg:hidden cursor-pointer duration-200">
+        <i class="bx bx-menu"></i>
+      </div>
+      <ul
+        class="links lg:flex md:flex justify-center md:relative lg:relative md:flex-row lg:flex-row lg:gap-7 md:gap-7 md:top-0 hidden flex-col absolute top-[80px] duration-200 right-0 items-center py-3 gap-6 uppercase font-bold z-50 bg-black w-full md:w-full lg:w-auto"
+      >
+        <li>
+          <a
+            class="text-[14px] border-b md:border-b-0 lg:border-b-0"
+            href="#home"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a
+            class="text-[14px] border-b md:border-b-0 lg:border-b-0"
+            href="#articles"
+            >Articles</a
+          >
+        </li>
+        <li>
+          <a
+            class="text-[14px] border-b md:border-b-0 lg:border-b-0"
+            href="#games"
+            >games</a
+          >
+        </li>
+        <li>
+          <a
+            class="text-[14px] border-b md:border-b-0 lg:border-b-0"
+            href="#products"
+            >products</a
+          >
+        </li>
+        <li>
+          <a
+            class="text-[14px] border-b md:border-b-0 lg:border-b-0"
+            href="#contact"
+            >contacts</a
+          >
+        </li>
+      </ul>
+      <div class="md:flex items-center gap-2 hidden">
+        <span class="cursor-pointer text-2xl hover:text-[#1DA1F2] duration-200"
+          ><i class="bx bxl-twitter"></i
+        ></span>
+        <span class="cursor-pointer text-2xl hover:text-[#0077B5] duration-200"
+          ><i class="bx bxl-linkedin"></i
+        ></span>
+        <span class="cursor-pointer text-2xl hover:text-[#1877F2] duration-200"
+          ><i class="bx bxl-facebook"></i
+        ></span>
+      </div>
+    </nav>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="relative h-[600px]" id="hero">
+        <div class="bg_img z-10"></div>
+        <div
+          class="bg-black opacity-60 absolute left-0 top-0 w-full h-[100%] z-20"
+        ></div>
+        <div
+          class="absolute z-30 bottom-0 w-[80%] lg:w-full left-[50%] translate-x-[-50%] translate-y-[-50%] text-center"
+        >
+          <h1 class="text-4xl lg:text-6xl md:text-5xl uppercase font-bold">
+            online gaming portal
+          </h1>
+          <div
+            class="text-center flex-col flex justify-center items-center mt-10"
+          >
+            <div class="btn__wrapper">
+              <h4 class="text">start now</h4>
+              <div class="background"></div>
+            </div>
+            <div class="text-white mt-2 font-bold text-5xl cursor-pointer">
+              <i class="bx bxs-chevrons-down bx-flashing"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Articles -->
+      <section class="py-16 mt-5" id="articles">
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 px-4 lg:p-0 md:p-0 place-content-center w-full"
+        >
+          <div class="linee lg:h-full md:h-full relative">
+            <img
+              class="p-3 md:p-16 lg:p-16 h-[300px] w-full lg:h-[480px] md:h-[520px] object-cover"
+              src="./assets/images/gallery1.jpg"
+              alt=""
+            />
+          </div>
+          <div class="flex flex-col justify-center mt-6 px-3 lg:px-16 md:px-16">
+            <h3 class="uppercase font-bold text-2xl mb-5">
+              Online gaming portal
+            </h3>
+            <p
+              class="w-[95%] text-justify md:w-[80%] lg:w-[80%] text-[14px] text-slate-300"
+            >
+              A website that provides users with access to a variety of games
+              that can be played directly through the website. These portals
+              offer a wide range of games, from simple arcade-style games to
+              complex multiplayer games that require strategic thinking and
+              teamwork.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="mt-16 px-8 md:px-16 lg:px-16 flex flex-col gap-16 md:flex-row lg:flex-row justify-between mx-5"
+        >
+          <div>
+            <h3 class="uppercase font-semibold">articles</h3>
+            <h2 class="uppercase font-bold text-3xl mt-2">
+              ARTICLES ON OUR<br />GAMING PORTAL
+            </h2>
+          </div>
+          <div class="self-end lg:self-start md:self-start">
+            <div class="btn__wrapper">
+              <h4 class="text">view more</h4>
+              <div class="background"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Articles Card -->
+        <div
+          class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-16 place-items-center p-3 lg:px-16 md:px-16 my-10 mx-5"
+        >
+          <!-- 1st -->
+          <article class="h-[340px] w-full">
+            <div
+              class="flex-1 flex justify-center items-center border overflow-hidden h-[280px] w-full"
+            >
+              <img
+                class="max-w-[100%] object-cover aspect-square block"
+                src="./assets/images/gallery2.jpg"
+                alt=""
+              />
+            </div>
+            <h3 class="mt-6 uppercase font-bold text-xl">
+              <span class="text-slate-400 font-[500] text-base mr-3">01</span>
+              main games
+            </h3>
+          </article>
+          <!-- 2nd -->
+          <article class="h-[340px] w-full">
+            <div
+              class="flex-1 flex justify-center items-center border overflow-hidden h-[280px] w-full"
+            >
+              <img
+                class="max-w-[100%] object-cover block"
+                src="./assets/images/gallery3.jpg"
+                alt=""
+              />
+            </div>
+            <h3 class="mt-6 uppercase font-bold text-xl">
+              <span class="text-slate-400 font-[500] text-base mr-3">02</span>
+              new concepts
+            </h3>
+          </article>
+          <!-- 3rd -->
+          <article class="h-[340px] w-full">
+            <div
+              class="flex-1 flex justify-center items-center border overflow-hidden h-[280px] w-full"
+            >
+              <img
+                class="max-w-[100%] object-cover aspect-square block"
+                src="./assets/images/gallery4.jpg"
+                alt=""
+              />
+            </div>
+            <h3 class="mt-6 uppercase font-bold text-xl">
+              <span class="text-slate-400 font-[500] text-base mr-3">03</span>
+              development
+            </h3>
+          </article>
+        </div>
+      </section>
+
+      <!-- About Us -->
+      <section class="py-7 lg:pl-16 lg:ml-5">
+        <div
+          class="flex flex-col lg:flex-row items-center justify-between gap-16 lg:gap-5"
+        >
+          <div class="flex-1 px-3 mx-5 md:px-16 md:mx-5 lg:p-0 lg:m-0">
+            <p class="uppercase font-medium text-sm">about us</p>
+            <h2
+              class="uppercase font-bold text-2xl tracking-wider my-4 md:text-3xl"
+            >
+              GAME PORTAL<br />CONTENT MAKERS
+            </h2>
+            <p
+              class="text-slate-300 lg:w-[80%] w-full md:text-lg lg:text-[14px] text-sm leading-5"
+            >
+              Game portal content makers work on various types of games,
+              including action, adventure, puzzle, role-playing, and simulation
+              games. They may work independently or as part of a team that
+              includes designers, programmers, and quality assurance
+              professionals. In addition to creating games, game portal content
+              makers must also be proficient in marketing and promoting their
+              games. They must understand the target audience for their games
+              and create marketing campaigns that will attract those users to
+              their games.
+            </p>
+          </div>
+          <div class="flex-1 w-full p-0 m-0">
+            <div class="sm:h-[300px] lg:h-auto md:h-[300px] w-full">
+              <img
+                class="w-[100%] h-[100%] object-cover block"
+                src="./assets/images/bg.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Cyber Sports -->
+      <section id="games" class="px-2 lg:px-8 mt-[90px]">
+        <div class="px-12">
+          <div>
+            <h3 class="uppercase font-normal">cyber sports</h3>
+            <h2 class="uppercase font-bold text-2xl mt-2">
+              THE MOST POPULAR<br />CYBER SPORTS GAMES
+            </h2>
+          </div>
+        </div>
+
+        <!-- Cards Wrapper-->
+        <div
+          class="flex flex-col lg:flex-row items-center justify-center gap-4 lg:gap-4 px-6 md:px-8 md:mx-5 lg:mx-5 my-16"
+        >
+          <div
+            class="flex flex-col lg:flex-row md:flex-row items-center justify-center md:gap-9 lg:gap-4 w-full"
+          >
+            <!-- 1st -->
+            <article
+              class="border w-full p-5 my-3 flex flex-col items-center justify-center"
+            >
+              <p class="uppercase">Game start</p>
+              <img
+                class="w-[100%] h-[230px] aspect-square object-cover block my-5 lg:my-4"
+                src="./assets/images/gallery5.jpg"
+                alt=""
+              />
+              <h3
+                class="uppercase font-bold text-3xl md:text-2xl lg:text-xl text-center"
+              >
+                Digital<br />warrior
+              </h3>
+              <div class="mt-4 text-3xl lg:text-2xl">
+                <span class="cursor-pointer"
+                  ><i
+                    class="bx bxl-youtube hover:text-[#b2071d] hover:-translate-y-1 duration-500"
+                  ></i
+                ></span>
+                <span class="cursor-pointer"
+                  ><i
+                    class="bx bxl-twitch hover:text-[#6441a5] hover:-translate-y-1 duration-500"
+                  ></i
+                ></span>
+              </div>
+            </article>
+            <!-- 2nd -->
+            <article
+              class="border w-full p-5 my-3 flex flex-col items-center justify-center"
+            >
+              <p class="uppercase">Game start</p>
+              <img
+                class="w-[100%] h-[230px] aspect-square object-cover block my-4"
+                src="./assets/images/gallery6.jpg"
+                alt=""
+              />
+              <h3
+                class="uppercase font-bold text-3xl md:text-2xl lg:text-xl text-center"
+              >
+                pixel<br />predators
+              </h3>
+              <div class="mt-4 text-3xl lg:text-2xl">
+                <span class="cursor-pointer"
+                  ><i
+                    class="bx bxl-youtube hover:text-[#b2071d] hover:-translate-y-1 duration-500"
+                  ></i
+                ></span>
+                <span class="cursor-pointer"
+                  ><i
+                    class="bx bxl-twitch hover:text-[#6441a5] hover:-translate-y-1 duration-500"
+                  ></i
+                ></span>
+              </div>
+            </article>
+          </div>
+          <!--  -->
+          <div
+            class="flex flex-col lg:flex-row md:flex-row items-center justify-center md:gap-9 lg:gap-4 w-full"
+          >
+            <!-- 3rd -->
+            <article
+              class="border w-full p-5 my-3 flex flex-col items-center justify-center"
+            >
+              <p class="uppercase">Game start</p>
+              <img
+                class="w-[100%] h-[230px] aspect-square object-cover block my-4"
+                src="./assets/images/gallery7.jpg"
+                alt=""
+              />
+              <h3
+                class="uppercase font-bold text-3xl md:text-2xl lg:text-xl text-center"
+              >
+                cyber<br />savages
+              </h3>
+              <div class="mt-4 text-3xl lg:text-2xl">
+                <span class="cursor-pointer"
+                  ><i
+                    class="bx bxl-youtube hover:text-[#b2071d] hover:-translate-y-1 duration-500"
+                  ></i
+                ></span>
+                <span class="cursor-pointer"
+                  ><i
+                    class="bx bxl-twitch hover:text-[#6441a5] hover:-translate-y-1 duration-500"
+                  ></i
+                ></span>
+              </div>
+            </article>
+            <!-- 4th -->
+            <article
+              class="border w-full p-5 my-3 flex flex-col items-center justify-center"
+            >
+              <p class="uppercase">Game start</p>
+              <img
+                class="w-[100%] h-[230px] aspect-square object-cover block my-4"
+                src="./assets/images/gallery8.jpg"
+                alt=""
+              />
+              <h3
+                class="uppercase font-bold text-3xl md:text-2xl lg:text-xl text-center"
+              >
+                tech<br />titans
+              </h3>
+              <div class="mt-4 text-3xl lg:text-2xl">
+                <span class="cursor-pointer"
+                  ><i
+                    class="bx bxl-youtube hover:text-[#b2071d] hover:-translate-y-1 duration-500"
+                  ></i
+                ></span>
+                <span class="cursor-pointer"
+                  ><i
+                    class="bx bxl-twitch hover:text-[#6441a5] hover:-translate-y-1 duration-500"
+                  ></i
+                ></span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Offer Mobile Version -->
+      <section class="mt-16">
+        <div class="mobile-version text-center py-16 relative">
+          <div
+            class="bg-black opacity-60 absolute left-0 top-0 w-full h-[100%] z-0"
+          ></div>
+          <div class="relative">
+            <h2 class="uppercase text-white text-2xl font-bold">
+              ONLINE GAMING PORTALS OFFER<br />MOBILE VERSIONS
+            </h2>
+          </div>
+          <div class="btn__wrapper z-10 my-6 mx-auto">
+            <h4 class="text">see games</h4>
+            <div class="background"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Products -->
+      <section id="products" class="px-2 lg:px-8 mt-[100px]">
+        <!-- Wrapper/Container -->
+        <div
+          class="flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-8 px-6 md:px-8 md:mx-5 lg:mx-5 my-16"
+        >
+          <div
+            class="flex flex-col lg:flex-row md:flex-row items-center justify-center gap-10 md:gap-9 lg:gap-8 w-full"
+          >
+            <!-- 1st -->
+            <article
+              class="w-full my-3 flex flex-col items-center justify-center"
+            >
+              <div class="border w-full">
+                <img
+                  class="w-[100%] p-3 md:h-[200px] lg:h-[160px] aspect-square object-cover block my-5 lg:my-4"
+                  src="./assets/images/gallery6.jpg"
+                  alt=""
+                />
+              </div>
+              <h3
+                class="uppercase mt-3 mb-2 font-bold text-3xl md:text-2xl lg:text-xl text-center"
+              >
+                gaming<br />mouse
+              </h3>
+              <p class="text-gray-500">$100.00</p>
+            </article>
+            <!-- 2nd -->
+            <article
+              class="w-full my-3 flex flex-col items-center justify-center"
+            >
+              <div class="border w-full">
+                <img
+                  class="w-[100%] p-3 md:h-[200px] lg:h-[160px] aspect-square object-cover block my-5 lg:my-4"
+                  src="./assets/images/gallery9.jpg"
+                  alt=""
+                />
+              </div>
+              <h3
+                class="uppercase mt-3 mb-2 font-bold text-3xl md:text-2xl lg:text-xl text-center"
+              >
+                gaming<br />keyboard
+              </h3>
+              <p class="text-gray-500">$200.00</p>
+            </article>
+          </div>
+          <!--  -->
+          <div
+            class="flex flex-col lg:flex-row md:flex-row items-center justify-center gap-10 md:gap-9 lg:gap-8 w-full"
+          >
+            <!-- 3rd -->
+            <article
+              class="w-full my-3 flex flex-col items-center justify-center"
+            >
+              <div class="border w-full">
+                <img
+                  class="w-[100%] p-3 md:h-[200px] lg:h-[160px] aspect-square object-cover block my-5 lg:my-4"
+                  src="./assets/images/gallery10.jpg"
+                  alt=""
+                />
+              </div>
+              <h3
+                class="uppercase mt-3 mb-2 font-bold text-3xl md:text-2xl lg:text-xl text-center"
+              >
+                gaming<br />controller
+              </h3>
+              <p class="text-gray-500">$150.00</p>
+            </article>
+            <!-- 4th -->
+            <article
+              class="w-full my-3 flex flex-col items-center justify-center"
+            >
+              <div class="border w-full">
+                <img
+                  class="w-[100%] p-3 md:h-[200px] lg:h-[160px] aspect-square object-cover block my-5 lg:my-4"
+                  src="./assets/images/gallery11.jpg"
+                  alt=""
+                />
+              </div>
+              <h3
+                class="uppercase mt-3 mb-2 font-bold text-3xl md:text-2xl lg:text-xl text-center"
+              >
+                vr<br />headset
+              </h3>
+              <p class="text-gray-500">$1000.00</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ's -->
+      <section class="px-8 lg:px-14 mt-[100px]">
+        <div class="grid grid-cols-3 gap-5">
+          <!-- Questions -->
+          <div
+            class="collapse_parent grid-cols-subgrid col-span-3 lg:col-span-2"
+          >
+            <!-- 1st Question -->
+            <div class="collapse_item">
+              <h3 class="collapse_title flex items-center justify-between">
+                <span
+                  class="uppercase font-bold text-base md:text-xl lg:text-xl"
+                  >WHAT IS AN ONLINE GAMING PORTAL?</span
+                >
+                <span class="duration-200"
+                  ><i class="text-bold text-3xl bx bx-chevron-down"></i
+                ></span>
+              </h3>
+              <div class="collapse_content my-3 text-gray-400">
+                An online gaming portal is a website or platform that provides
+                access to a variety of online games for users to play.
+              </div>
+            </div>
+            <!-- 2nd Question -->
+            <div class="collapse_item">
+              <h3 class="collapse_title flex items-center justify-between">
+                <span
+                  class="uppercase font-bold text-base md:text-xl lg:text-xl"
+                  >WHAT TYPES OF GAMES ARE TYPICALLY FOUND ON AN ONLINE GAMING
+                  PORTAL?</span
+                >
+                <span class="duration-200"
+                  ><i class="text-bold text-3xl bx bx-chevron-down"></i
+                ></span>
+              </h3>
+              <div class="collapse_content my-3 text-gray-400">
+                Online gaming portals can offer a wide range of games, including
+                puzzle games, arcade games, strategy games, role-playing games,
+                simulation games, and more.
+              </div>
+            </div>
+            <!-- 3rd Question -->
+            <div class="collapse_item">
+              <h3 class="collapse_title flex items-center justify-between">
+                <span
+                  class="uppercase font-bold text-base md:text-xl lg:text-xl"
+                  >ARE ONLINE GAMING PORTALS FREE TO USE?</span
+                >
+                <span class="duration-200"
+                  ><i class="text-bold text-3xl bx bx-chevron-down"></i
+                ></span>
+              </h3>
+              <div class="collapse_content my-3 text-gray-400">
+                It depends on the online gaming portal. Some portals offer free
+                games, while others require users to pay a fee to access certain
+                games or features.
+              </div>
+            </div>
+            <!-- 4th Question -->
+            <div class="collapse_item">
+              <h3 class="collapse_title flex items-center justify-between">
+                <span
+                  class="uppercase font-bold text-base md:text-xl lg:text-xl"
+                  >DO I NEED TO DOWNLOAD ANY SOFTWARE TO USE AN ONLINE GAMING
+                  PORTAL?</span
+                >
+                <span class="duration-200"
+                  ><i class="text-bold text-3xl bx bx-chevron-down"></i
+                ></span>
+              </h3>
+              <div class="collapse_content my-3 text-gray-400">
+                Most online gaming portals allow users to play games directly in
+                their web browser, so there is no need to download any
+                additional software.
+              </div>
+            </div>
+            <!-- 5th Question -->
+            <div class="collapse_item">
+              <h3 class="collapse_title flex items-center justify-between">
+                <span
+                  class="uppercase font-bold text-base md:text-xl lg:text-xl"
+                  >CAN I PLAY WITH OTHER PEOPLE ON AN ONLINE GAMING
+                  PORTAL?</span
+                >
+                <span class="duration-200"
+                  ><i class="text-bold text-3xl bx bx-chevron-down"></i
+                ></span>
+              </h3>
+              <div class="collapse_content my-3 text-gray-400">
+                Many online gaming portals offer multiplayer games that allow
+                users to play with other people from around the world.
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Image -->
+          <img
+            class="w-full hidden lg:block border object-cover aspect-square h-full"
+            src="./assets/images/gallery9.jpg"
+            alt=""
+          />
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section class="px-8 lg:px-14 mt-[130px]">
+        <h1 class="uppercase text-3xl font-bold leading-normal my-5">
+          Client Reviews
+        </h1>
+        <!-- Parent -->
+        <div class="flex flex-col gap-6">
+          <!-- 1st row -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+            <div class="border p-8 relative">
+              <span class="absolute left-2 text-7xl opacity-30"
+                ><i class="bx bxs-quote-left"></i
+              ></span>
+              <h3 class="uppercase font-bold text-xl text-center my-2">
+                michael hopkins
+              </h3>
+              <p class="text-center w-[80%] mx-auto my-5">
+                The storyline is gripping and keeps you engaged throughout the
+                entire game. I found myself is invested in the characters and
+                their journey.
+              </p>
+              <p
+                class="text-center uppercase font-bold text-gray-400 absolute bottom-0 left-[50%] translate-x-[-50%] translate-y-[-50%]"
+              >
+                Gamer
+              </p>
+            </div>
+            <div class="border p-8 relative">
+              <span class="absolute left-2 text-7xl opacity-30"
+                ><i class="bx bxs-quote-left"></i
+              ></span>
+              <h3 class="uppercase font-bold text-xl text-center my-2">
+                peter michell
+              </h3>
+              <p class="text-center w-[80%] mx-auto my-5">
+                The soundtrack is fantastic and perfectly complements the game's
+                atmosphere. It really adds to the immersive experience and helps
+                you feel like you are the part of the game world.
+              </p>
+              <p
+                class="text-center uppercase font-bold text-gray-400 absolute bottom-0 left-[50%] translate-x-[-50%] translate-y-[-50%]"
+              >
+                Gamer
+              </p>
+            </div>
+          </div>
+          <!-- 2nd row -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+            <div class="border p-8 relative">
+              <span class="absolute left-2 text-7xl opacity-30"
+                ><i class="bx bxs-quote-left"></i
+              ></span>
+              <h3 class="uppercase font-bold text-xl text-center my-2">
+                daniel mathis
+              </h3>
+              <p class="text-center w-[80%] mx-auto my-5">
+                There are few minor bugs and glitches here and there, but
+                overall the game runs smoothly. I am very impressed with how
+                stable it is.
+              </p>
+              <p
+                class="text-center uppercase font-bold text-gray-400 absolute bottom-0 left-[50%] translate-x-[-50%] translate-y-[-50%]"
+              >
+                Gamer
+              </p>
+            </div>
+            <div class="border p-8 relative">
+              <span class="absolute left-2 text-7xl opacity-30"
+                ><i class="bx bxs-quote-left"></i
+              ></span>
+              <h3 class="uppercase font-bold text-xl text-center my-2">
+                vickie ray
+              </h3>
+              <p class="text-center w-[80%] mx-auto my-5">
+                Wow, this game is absolutely awesome! The graphics are top-notch
+                and the attention to details is impressive.
+              </p>
+              <p
+                class="text-center uppercase font-bold text-gray-400 absolute bottom-0 left-[50%] translate-x-[-50%] translate-y-[-50%]"
+              >
+                Gamer
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Form -->
+      <section id="contact" class="px-8 lg:px-14 mt-[130px] text-center">
+        <h1 class="uppercase text-3xl font-bold leading-normal">
+          contact us with any<br />question you have
+        </h1>
+
+        <form class="my-6 w-[97%] md:w-[85%] lg:w-[70%] mx-auto" action="#">
+          <input
+            class="w-[100%] block mx-auto outline-0 bg-transparent border p-3 placeholder:text-white"
+            type="text"
+            autocomplete="off"
+            placeholder="Your Name..."
+          />
+          <input
+            class="w-[100%] block my-5 mx-auto outline-0 bg-transparent border p-3 placeholder:text-white"
+            type="email"
+            placeholder="Your Email..."
+            autocomplete="off"
+          />
+          <textarea
+            class="w-[100%] min-h-[150px] block mx-auto outline-0 bg-transparent border p-3 placeholder:text-white"
+            placeholder="Your Message..."
+          ></textarea>
+
+          <div class="btn__wrapper w-[100%] mx-auto my-5">
+            <h4 class="text">send now</h4>
+            <div class="background w-full left-[5.5px] mx-0"></div>
+          </div>
+        </form>
+      </section>
+
+      <!-- Gallery Images -->
+      <section class="px-8 lg:px-14 mt-[130px]">
+        <!-- Parent -->
+        <div
+          class="grid place-content-center grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-6 w-full py-10"
+        >
+          <div>
+            <img
+              class="w-[100%] object-cover aspect-[3/1] md:aspect-[2/1] lg:aspect-[1/1.5]"
+              src="./assets/images/gallery6.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="w-[100%] object-cover aspect-[3/1] md:aspect-[2/1] lg:aspect-[1/1.5]"
+              src="./assets/images/gallery5.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="w-[100%] object-cover aspect-[3/1] md:aspect-[2/1] lg:aspect-[1/1.5]"
+              src="./assets/images/gallery12.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="w-[100%] object-cover aspect-[3/1] md:aspect-[2/1] lg:aspect-[1/1.5]"
+              src="./assets/images/gallery8.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="w-[100%] object-cover aspect-[3/1] md:aspect-[2/1] lg:aspect-[1/1.5]"
+              src="./assets/images/gallery13.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="w-[100%] object-cover aspect-[3/1] md:aspect-[2/1] lg:aspect-[1/1.5]"
+              src="./assets/images/gallery4.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="px-8 lg:px-14 mt-[130px]">
+      <div
+        class="flex flex-col gap-8 py-16 w-[100%] mx-auto border justify-center items-center"
+      >
+        <img
+          class="mix-blend-screen w-[80px]"
+          src="./assets/images/logo.png"
+          alt=""
+        />
+        <div class="md:flex items-center">
+          <span
+            class="cursor-pointer text-2xl hover:text-[#1DA1F2] hover:-translate-y-2 duration-200 mx-2"
+            ><i class="bx bxl-twitter"></i
+          ></span>
+          <span
+            class="cursor-pointer text-2xl hover:text-[#0077B5] hover:-translate-y-2 duration-200 mx-2"
+            ><i class="bx bxl-linkedin"></i
+          ></span>
+          <span
+            class="cursor-pointer text-2xl hover:text-[#1877F2] hover:-translate-y-2 duration-200 mx-2"
+            ><i class="bx bxl-facebook"></i
+          ></span>
+          <span
+            class="cursor-pointer text-2xl hover:text-[#7547a3] hover:-translate-y-2 duration-200 mx-2"
+            ><i class="bx bxl-discord-alt"></i
+          ></span>
+        </div>
+        <p>
+          Template by
+          <a
+            class="text-gray-500"
+            href="https://www.mobirise.com"
+            target="_blank"
+            >Mobirise</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

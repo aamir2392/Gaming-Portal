@@ -1,0 +1,22 @@
+.links li a {
+  position: relative;
+}
+
+.links li > a::after {
+  content: "";
+  left: 0;
+  position: absolute;
+  bottom: -6px;
+  width: 0%;
+  height: 5.5px;
+  background: #fff;
+  transition: width 200ms ease-in-out;
+}
+
+.links li > a:hover::after {
+  width: 100%;
+}
+
+.bx-menu {
+  font-size: 26px !important;
+}
